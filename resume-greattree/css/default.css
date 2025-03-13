@@ -5,7 +5,7 @@
 .skills:first-of-type li{background-color:var(--mint-teal);color:var(--deep-teal);}
 .skills li{background-color:#F4FCFD;color:var(--deep-teal);padding:0.25rem 1rem;margin:0.25rem;border-radius:2rem;}
 .cert{background-color:var(--light-blue);border-radius:2rem;overflow:hidden;width:fit-content;}
-.cert img{width:350px;height:225px;border-radius:2rem;border:1px solid #dedede;border-bottom:0;}
+.cert img{width:350px;height:auto;border-radius:2rem;border:1px solid #dedede;border-bottom:0;}
 .cert .issue{padding: 1rem 1.5rem;}
 /* contact */
 .contact-float{border-radius:2rem;background-color:var(--soft-pink);padding:1rem 1.5rem;margin:auto;}
@@ -24,6 +24,7 @@
 @media (max-width:1179px){  
     /* intro*/
     .intro-wrapper{width:100%;padding:0;}
+    .cert{margin:2rem auto 1rem 0;}
     /* contact */
     .contact-float{border-radius:2rem 2rem 0 0;}
 }
