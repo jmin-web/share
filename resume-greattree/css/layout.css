@@ -22,7 +22,9 @@ body{font-family:"Noto Sans TC",sans-serif;}
 :root{
     --sky-blue:#21c0e0;
     --light-blue:#e6f0f9;
+    --royal-blue:#0969C3;
     --soft-pink:#ffe2f1;
     --mint-teal:#dcf2f2;
     --deep-teal:#48a7ba;
+    --border-gray:#dedede;
 }

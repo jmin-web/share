@@ -1,6 +1,7 @@
 @import url(./layout.css);
 @import url(./style.css);
 /* menu */
+.nav-placeholder{display:none;height:78px;}
 .nav-container{position:relative;margin:auto auto 2%;z-index:2;}
 .main-nav{font-size:1.25rem;padding:1rem 0;width:100%;display:flex;justify-content:center;position:relative;}
 .main-nav li{position:relative}
@@ -8,6 +9,7 @@
 .sub-menu{position:absolute;list-style:none;background-color:white;border-radius:1rem;padding:1rem;min-width:150px;display:none;top:100%;left:0;z-index:3;box-shadow:0px 15px 30px rgba(0,0,0,0.1);}
 .sub-menu li a{text-decoration:none;padding:0.25rem;display:block;cursor:pointer;font-size:1.125rem;display:flex;align-items:center;}
 .sub-menu li svg{width:1.85rem;padding:0.35rem;background-color: var(--light-blue);border-radius: 0.5rem;margin: auto 0.5rem auto 0;}
+.sub-menu li a:hover svg{background-color:var(--royal-blue);fill:white;}
 .menu-toggle{display:none;color:white;padding:1rem;cursor:pointer;font-size:1.5rem;}
 .nav-container.fixed{position:fixed;width:100%;top:0;left:0;box-shadow:0 15px 30px rgba(0,0,0,.15);background-color:white}
 .target-fix{position:relative;top:-250px;display:block;visibility:hidden;}
@@ -24,10 +26,11 @@
 /* footer */
 .footer{background-color:var(--soft-pink);height:3rem;}
 @media (min-width:1180px){
+    .sub-menu li a:hover{color:var(--royal-blue);}
     .lg\:hidden{display:none;}    
     .nav-container.fixed li.firstname{display:initial;}
     .main-nav .firstname{font-weight:bold;position:absolute;left:10%;right:auto;}
-    .main-nav .firstname a{padding:0.5rem 0;font-family: 'Montserrat', sans-serif;}
+    .main-nav .firstname a{padding:0.5rem 0;font-family:'Montserrat', sans-serif;}
     .nav-container.fixed li a,.nav-container.fixed .menu-toggle{color:initial;}
 }
 @media (max-width:1179px){
@@ -44,7 +47,7 @@
     .main-nav>li>a.has-submenu.active::after{content:'-'}    
     .main-nav>li>a.has-submenu::after{display:inline-block}  
     .nav-container.fixed .menu-toggle.active{color:white}
-    .nav-container .logo{font-family: 'Montserrat', sans-serif;color:white;font-size:1.25rem;font-weight:bold;text-decoration:none;}
+    .nav-container .logo{font-family:'Montserrat', sans-serif;color:white;font-size:1.25rem;font-weight:bold;text-decoration:none;}
     .nav-container.fixed .logo{display:initial;color:initial;}
     .target-fix{top:-180px;}
     /* footer */

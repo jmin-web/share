@@ -1,4 +1,17 @@
+
 /* intro */
-.header-wrapper{background-image:url(https://pixelprime.co/themes/jobster-wp/demo-1/wp-content/uploads/2022/06/blog-8-1920x1280.jpeg);;background-position:center center;background-size:cover}
-.bio h1{background-color:#0969C3;color:white;border-radius:1rem;padding:2rem;}
-.title b{color:#0969C3;}
+.header-wrapper{background-image:url(https://pixelprime.co/themes/jobster-wp/demo-1/wp-content/uploads/2022/06/blog-8-1920x1280.jpeg);background-position:center center;background-size:cover}
+.bio h1{background-color:var(--royal-blue);color:white;border-radius:1rem;padding:2rem;}
+.title b{color:var(--royal-blue);}
+/* footer */
+.footer{background-color:#FFF8EC;height:auto;padding:4rem 0 6rem;}
+.contact{justify-content:end;}
+.footer dl{width:auto;margin:auto 2rem;}
+.footer dl dt{color:rgb(0 0 0 / 50%);}
+@media (max-width:1179px){ 
+    .nav-container .logo{display:initial;}
+}
+@media (max-width:767px){ 
+    .footer{padding:2rem 0 3rem;}
+    .footer dl{width:100%;margin:auto auto 0.5rem;}    
+}
