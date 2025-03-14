@@ -1,16 +1,18 @@
 $(document).ready(function() {
   // 記錄 nav-container 的初始位置
-  var navOffset = $('.nav-container').offset().top;
+  var navOffset = $('.nav-placeholder').offset().top;
   // 滾動事件處理
-  $(window).scroll(function() {
-      var scrollPos = $(window).scrollTop();
-      // 當滾動超過 nav-container 時
-      if (scrollPos > navOffset) {
-          $('.nav-container').addClass('fixed');
-      } else {
-          $('.nav-container').removeClass('fixed');
-      }
-  });
+    $(window).scroll(function () {
+        var scrollPos = $(window).scrollTop();
+        // 當滾動超過 nav-container 時
+        if (scrollPos > navOffset) {
+            $('.nav-container').addClass('fixed');
+            $('.nav-placeholder').show(); // 顯示佔位元素
+        } else {
+            $('.nav-container').removeClass('fixed');
+            $('.nav-placeholder').hide(); // 隱藏佔位元素
+        }
+    });
   // 手機選單切換
   $('.menu-toggle').click(function() {
       $('.main-nav').toggleClass('active');
