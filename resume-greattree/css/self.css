@@ -2,7 +2,7 @@
 /* intro */
 .header-wrapper{background-image:url(../image/self.webp);background-position:center center;background-size:cover}
 .bio h1{background-color:var(--royal-blue);color:white;border-radius:1rem;padding:2rem;}
-.title b{color:var(--royal-blue);}
+.title strong{color:var(--royal-blue);}
 /* footer */
 .footer{background-color:#FFF8EC;height:auto;padding:4rem 0 6rem;}
 .contact{justify-content:end;}
