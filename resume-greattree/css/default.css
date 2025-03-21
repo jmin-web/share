@@ -2,7 +2,6 @@
 .header-wrapper{background-image:url(../image/home.webp);background-position:center center;}
 /* intro */
 .intro-wrapper{width:calc(100% - 300px);padding:0 5rem 0 0;}
-.intro-wrapper p{padding:0 0 0.5rem}
 .skills:first-of-type li{background-color:var(--mint-teal);color:var(--deep-teal);}
 .skills li{background-color:#F4FCFD;color:var(--deep-teal);padding:0.25rem 1rem;margin:0.25rem;border-radius:2rem;}
 .cert{background-color:var(--light-blue);border-radius:2rem;overflow:hidden;width:fit-content;}
