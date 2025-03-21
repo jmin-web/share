@@ -1,3 +1,4 @@
 .title{font-size:1.5rem;font-weight:500;padding:0rem 0rem 1rem;}
 p{font-size:1.125rem;padding: 0 0 0.5rem;}
 dl{font-size:1.125rem;padding: 0 0 0.5rem;}
+.list-type-disc dd::before{content:'';width:5px;height:5px;border-radius:50%;background-color:black;display:inline-flex;margin:auto .5rem auto auto;position:relative;top:-3px;}
