@@ -4,7 +4,7 @@
 .intro-wrapper{width:calc(100% - 300px);padding:0 5rem 0 0;}
 .skills:first-of-type li{background-color:var(--mint-teal);color:var(--deep-teal);}
 .skills li{background-color:#F4FCFD;color:var(--deep-teal);padding:0.25rem 1rem;margin:0.25rem;border-radius:2rem;}
-.cert{background-color:var(--light-blue);border-radius:2rem;overflow:hidden;width:fit-content;}
+.cert{background-color:var(--light-blue);border-radius:2rem;overflow:hidden;width:fit-content;margin:0 2rem 0 0;}
 .cert img{width:350px;height:auto;border-radius:2rem;border:1px solid var(--border-gray);border-bottom:0;}
 .cert .issue{padding: 1rem 1.5rem;}
 /* contact */
