@@ -1,0 +1,30 @@
+/* CSS Reset */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;margin:0;padding:0;line-height:1.5;}
+img,picture,video,canvas,svg{display:block;max-width:100%;}
+button{background:none;border:none;padding:0;cursor:pointer;}
+a{color:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,ol{list-style:none;}
+/* tailwindcss */
+.flex{display:flex;}
+.flex-wrap{flex-wrap:wrap;}
+.items-center{align-items:center;}
+.items-end{align-items:end;}
+.justify-center{justify-content:center;}
+.mx-auto{margin-left:auto;margin-right:auto;}
+.py-8{padding-top:2rem;padding-bottom:2rem;}
+.pb-0{padding-bottom:0;}
+.hidden{display:none;}
+/* layout */
+body{font-family:"Noto Sans TC",sans-serif;}
+.container{width:80%;}
+:root{
+    --sky-blue:#21c0e0;
+    --light-blue:#e6f0f9;
+    --royal-blue:#0969C3;
+    --soft-pink:#ffe2f1;
+    --mint-teal:#dcf2f2;
+    --deep-teal:#48a7ba;
+    --border-gray:#dedede;
+}
