@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>自傳</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css?t=<%=DateTime.Now.Ticks%>">
+    <link rel="stylesheet" href="./css/self.css?t=<%=DateTime.Now.Ticks%>">
+</head>
+<body>
+    <main>
+        <header class="header-wrapper">            
+            <div class="nav-placeholder"></div>
+            <nav class="nav-container">                
+                <div class="flex flex-wrap items-center"><div class="menu-toggle">☰</div><a class="logo hidden" href="./default.html">ChiehMin</a></div>                
+                <ul class="main-nav">
+                    <li class="firstname hidden"><a href="./default.html">ChiehMin</a></li>
+                    <li><a href="./default.html">首頁</a></li>
+                    <li><a href="./self.html">自傳</a></li>
+                    <li>
+                        <a href="#" class="has-submenu">作品集</a>
+                        <ul class="sub-menu">
+                            <li><a href="./page.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z"/></svg>網頁</a></li>
+                            <li><a href="./copy.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.7-9.2L288 94.6z"/></svg>文案</a></li>                            
+                            <li><a href="./media.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64l256 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1l0-17.1 0-128 0-17.1 14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>影像</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./default.html#work">經歷</a></li>
+                </ul>
+            </nav>
+            <div class="bio container mx-auto flex flex-wrap items-center">
+                <h1>自傳</h1>
+            </div>
+        </header>
+        <article>
+            <section class="intro container mx-auto py-8 flex flex-wrap">                
+                <div class="title w-full"><strong>企劃力、學習力、跨領域優勢</strong></div>
+                <p>我的職涯以「企劃力」為核心，透過主動「學習力」拓展跨領域技能。我從一名文案企劃成長為具備前後端思維的網站企劃。</p>
+                <p>在職涯初期，我累積了教科書編輯、數位教具開發、廣告文案、採訪寫作等多元經驗。當工作轉向線上廣告與內容行銷時，我體認到技術知識是提升成效的關鍵。我主動鑽研前端編碼（HTML, CSS3），將市場熱門工具（Wireframe, GA4, Google Ads）納入學習計畫，應用於網站專案中，提高效率與競爭力。</p>
+                <div class="py-8 pb-0">
+                    <div class="title"><strong>專案管理與數據應用經驗</strong></div>
+                    <p>現職負責網站開發、維運及優化相關的專案，熟悉專案規劃、數據監控、問題追蹤與回報。</p>
+                    <dl class="list-type-disc">
+                        <dt><strong>專案規劃、追蹤與文件產出</strong></dt>
+                        <dd>需求定義與規劃：我與行銷人員共同企劃內容面向，並與後端工程師討論資料庫功能串接。這需要精準地進行需求討論與訪談，將其轉化為可執行的方案。</dd>
+                        <dd>時程控制與協調：專案中涉及到介面設計、切版、架構化、樣式與RWD等環節，這些都需要我獨立或協同作業。我能規劃及協調專案工作事項，確保開發進度符合時程要求。</dd>
+                        <dd>規格文件撰寫：擅長Figma、Photoshop工具提案Mockup，整合產品資源與繪製視覺稿。</dd>
+                    </dl>
+                    <dl class="list-type-disc">
+                        <dt><strong>跨部門溝通與測試驗收</strong></dt>
+                        <dd>跨職能溝通與技術協作：我掌握軟體技術知識（如HTML、CSS3、RWD、Photoshop），因此在與美術設計師、工程師溝通時能夠使用精準的語言，有效縮短溝通成本、加速專案執行。</dd>
+                        <dd>數據監控與成效驗收：我每月監控GA數據（如瀏覽次數、持續時間、跳出率、轉換率）以改善網頁成效，這不僅是結案後的資料整理，更是及時發現問題、持續優化流程與內容品質的實時專案驗收，確保產品指標符合預期。</dd>
+                    </dl>
+                    <dl class="list-type-disc">
+                        <dt><strong>領導數位行銷專案</strong></dt>
+                        <div>主導Google Ads廣告投放策略，從SEO到CTA，針對「線上課程」產品精準引流，有效提升電商平台的轉換率，將行銷預算轉化為實質營收。</div>
+                    </dl>
+                    <p>因此在執行資訊系統專案時，我能細緻分析使用者需求，與內外部團隊密切合作，讓最終交付的系統解決方案提升客戶體驗、優化營運流程、降低成本。</p>                                        
+                </div>
+                <div class="py-8 pb-0">
+                    <div class="title"><strong>風險控管與問題解決能力</strong></div>
+                    <p>我在專案執行中可快速應對突發狀況，具備風險管理與時間管理方法，掌控進度不受影響，短時間內完成高品質的專案。例如：因應Google演算法變化，兩週內實現網站改版上線，處理關鍵字調整與頁面結構優化，同時與業務行銷、後端工程師溝通策劃，確保專案符合技術規格與商業需求。</p>
+                    <p>我希望透過自身的專案管理、數據分析與行銷企劃能力，推動系統創新，提升業務價值，打造更高效、更智能的資訊系統，為企業與客戶創造更優質的體驗。</p>
+                </div>   
+            </section>           
+        </article> 
+        <footer class="footer">
+            <div class="contact container mx-auto flex flex-wrap">
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:chiehminchuang@gmail.com" target="_blank">chiehminchuang@gmail.com</a></dd>
+                </dl>
+                <dl>
+                    <dt>Location</dt>
+                    <dd>桃園市</dd>
+                </dl>
+            </div>
+        </footer>       
+    </main>    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/menu.js"></script>   
+</body>
+</html>
+
+
