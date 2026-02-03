@@ -16,6 +16,7 @@ ul,ol{list-style:none;}
 .py-8{padding-top:2rem;padding-bottom:2rem;}
 .pb-0{padding-bottom:0;}
 .hidden{display:none;}
+.w-full{width:100%}
 /* layout */
 body{font-family:"Noto Sans TC",sans-serif;}
 .container{width:80%;}
@@ -27,4 +28,5 @@ body{font-family:"Noto Sans TC",sans-serif;}
     --mint-teal:#dcf2f2;
     --deep-teal:#48a7ba;
     --border-gray:#dedede;
+
 }
