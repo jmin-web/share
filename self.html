@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="zh-TW">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>自傳</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css?t=<%=DateTime.Now.Ticks%>">
+    <link rel="stylesheet" href="./css/self.css?t=<%=DateTime.Now.Ticks%>">
+</head>
+<body>
+    <main>
+        <header class="header-wrapper">            
+            <div class="nav-placeholder"></div>
+            <nav class="nav-container">                
+                <div class="flex flex-wrap items-center"><div class="menu-toggle">☰</div><a class="logo hidden" href="./default.html">ChiehMin</a></div>                
+                <ul class="main-nav">
+                    <li class="firstname hidden"><a href="./default.html">ChiehMin</a></li>
+                    <li><a href="./default.html">首頁</a></li>
+                    <li><a href="./self.html">自傳</a></li>
+                    <li>
+                        <a href="#" class="has-submenu">作品集</a>
+                        <ul class="sub-menu">
+                            <li><a href="./page.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z"/></svg>網頁</a></li>
+                            <li><a href="./copy.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.7-9.2L288 94.6z"/></svg>文案</a></li>                            
+                            <li><a href="./media.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64l256 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1l0-17.1 0-128 0-17.1 14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>影像</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./default.html#work">經歷</a></li>
+                </ul>
+            </nav>
+            <div class="bio container mx-auto flex flex-wrap items-center">
+                <h1>自傳</h1>
+            </div>
+        </header>
+        <article>
+            <section class="intro container mx-auto py-8 flex flex-wrap">                
+                <h2 class="title"><strong>熱衷學習是能耐，持續擴充跨領域優勢。</strong></h2>
+                <p>我的職涯以「企劃力」為核心，透過主動的「學習力」持續拓展跨領域技能，一路從「文案企劃」轉型為具備前後端思維的「網站企劃」，再精進到「數位行銷」廣告投放。</p>
+                <ul>
+                    <li><strong>具備知識型、創意型寫作力</strong>工作經驗累積了教科書編輯、數位教具開發、平面與網頁廣告文案、採訪寫作等多元類型。</li>
+                    <li><strong>熟練網頁前端優化技術</strong>為了讓數位廣告達到更好的績效，深入研究網頁標籤、站內路徑、關鍵字布局等提升流量的技術，還進一步掌握 HTML、CSS3 編碼，能獨立生成 Landing page。</li>
+                    <li><strong>善用數位工具達成目標</strong>會使用 Figma 繪製 Mockup 改善網站 UI/UX。運用 Google Analytics 4 與 Google Ads 操作廣告投放，達成精準轉換與資源配置最佳化。</li>
+                </ul>
+                <div class="py-8 pb-0">
+                    <h2 class="title"><strong>精通數位技能，放大品牌行銷效益。</strong></h2>
+                    <p>現職負責網站開發、維運及優化專案，透過數據分析洞察市場回饋，適時調整執行策略。</p>
+                    <ul>
+                        <li><strong>擅長 SEO、GEO 讓品牌被看見</strong>能針對 TA 規劃關鍵字（案例），編寫 AI Overview 優先採用的網頁架構（案例），提高品牌在搜尋結果中的絕對頂端曝光率。同時串聯 LINE、Facebook 等社群渠道，經營長期的信任行銷。</li>
+                        <li><strong>廣告投放與數據追蹤優化</strong>Google Ads 實務包含「搜尋廣告」與「多媒體廣告」，搭配 GA4 評估成效，動態調整出價策略，在補教產業實現 13.03% 高轉換率與 3.3 倍 ROAS 。</li>
+                        <li><strong>落實前端開發與後端串接</strong>豐富的網站架設經驗，理解後端資料庫邏輯，可設計網頁互動功能與系統整合。</li>
+                    </ul>
+                </div>  
+                <div class="py-8 pb-0">
+                    <h2 class="title"><strong>領導數位行銷專案，與跨部門高效協作。</strong></h2>
+                    <p>我在任務中能靈活應對突發狀況，掌控進度不受影響，短時間內完成高品質的專案。</p>
+                    <ul>
+                        <li><strong>優異的跨部門溝通效率</strong>由於瞭解軟體技術、設計工具語言，因此與工程師、美術設計師溝通成本低，加速交付時程。</li>
+                        <li><strong>風險控管與解決問題能力</strong>曾因應 Google 演算法將 RWD 納入排名依據，於兩週內完成網站改版上線，確保流量不受震盪。</li>
+                    </ul>
+                </div>
+                <div class="py-8 pb-0">
+                <p>未來希望透過自身的專案管理、數據分析與行銷企劃能力，推動公司業務創新與數位轉型，挖掘潛在市場需求，為企業與客戶提供更具影響力的品牌體驗，在快速變動的科技浪潮中，建立可持續增長的商業競爭力！</p>   
+                </div>
+            </section>           
+        </article> 
+        <footer class="footer">
+            <div class="contact container mx-auto flex flex-wrap">
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:chiehminchuang@gmail.com" target="_blank">chiehminchuang@gmail.com</a></dd>
+                </dl>
+                <dl>
+                    <dt>Location</dt>
+                    <dd>桃園市</dd>
+                </dl>
+            </div>
+        </footer>       
+    </main>    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/menu.js"></script>   
+</body>
+</html>
+
+
