@@ -1,6 +1,6 @@
 /* menu */
 .nav-container{margin:auto;}
-.main-nav>li>a{color:initial;}
+.main-nav>li>a{color:initial;text-shadow:none;}
 /* header */
 .landing{background-color:var(--light-blue);padding:3rem 0;}
 .landing dl{padding:1rem 0 0;}
